@@ -6,20 +6,24 @@ def demo_values():
     # ============================================================================
     
     # Integer - Used for epochs, batch sizes, model dimensions
-    steps = 100  # Training steps or epochs
-    
+    steps = 100             # Training steps or epochs
+    steps2 = int(2)
+
     # Float - Critical for loss values, learning rates, metrics
-    loss = 0.123  # Model loss value (always float for precision)
+    loss = 0.123            # Model loss value (always float for precision)
+    loss2 = float(0.123)
     
     # Boolean - For flags, convergence status, feature toggles
-    is_converged = False  # Training convergence flag
-    
+    is_converged = False    # Training convergence flag
+    is_converged2 = bool(False)
+
     # String - For model names, file paths, experiment descriptions
     note = "epoch finished"  # Log messages, experiment notes
+    note2 = str("epoch finished")
     
     # None - Represents absence of value, useful for optional parameters
     nothing = None  # Uninitialized model weights, missing data
-    
+
     # Bytes - For binary data, model serialization, image processing
     blob = b"bytes"  # Raw model data, binary file content
 
