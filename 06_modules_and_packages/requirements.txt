@@ -1,0 +1,11 @@
+# requirements.txt - Third-party Package Dependencies
+# 
+# Specifies external packages needed for MLOps project:
+# - Lists package names and minimum versions
+# - Used by pip: pip install -r requirements.txt
+# - Ensures consistent environments across team/deployments
+
+numpy>=1.26        # Numerical computing and arrays
+pandas>=2.2        # Data manipulation and analysis
+scikit-learn>=1.5  # Machine learning algorithms
+mlflow>=2.15       # MLOps experiment tracking and model management
