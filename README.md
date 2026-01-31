@@ -109,4 +109,6 @@ Educational content for the MLOps Specialization Course.
 
 ---
 
-**Happy Learning!** 🐍✨
+**Happy Learning!** ✨ 
+
+Prepared by [Oleksiy Pototskyy](https://pototskyy.net/)
